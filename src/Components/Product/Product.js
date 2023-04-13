@@ -8,7 +8,10 @@ function Product(props) {
     const onBtnClick = (productData, quantity) => {
         addToCartContext.addToCart(productData, quantity)
     }
-    console.log("RENDER");
+
+
+
+    // sdfsdf
     return (
         <div className=' Product-div '>
             <p>{props.val.name}</p>
